@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(135, 100, 172) ,rgb(135, 61, 214), rgb(60, 60, 242));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container {
+    margin-top: 5%;
+    width: 30rem;
+    height: 35rem;
+    background-color: rgb(218, 216, 220);
+    box-shadow: 2px 3px 10px;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 2%;
+}
+p {
+    font-size: 20px;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
+input {
+    margin-left: 10%;
+    outline: none;
+    border: 2px rgb(170, 170, 248) solid;
+    height: 2rem;
+    width: 24rem;
+    padding: 2%;
+}
+
+button {
+    margin: 3rem;
+    width:80% ;
+    height: 7%;
+    margin-top:7rem ;
+    background-image: linear-gradient(to right, rgb(145, 105, 187) ,rgb(150, 73, 233), rgb(60, 60, 242));
+    outline: none;
+    border: 2px rgb(39, 39, 75);
+    color: azure;
+}   
+
+.modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 3, 3, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    display:inline-block;
+}
+
+.modal-box {
+    width: 45%;
+    height: 30%;
+    margin-left: 28%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    position: relative;
+    font-size: 30px;
+}
+
+.close {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
